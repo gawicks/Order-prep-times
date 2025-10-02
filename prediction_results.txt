@@ -1,0 +1,1058 @@
+Prep Time Prediction Results
+============================
+
+Order 73:
+  Store ID: 933
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 37.0
+  Basket value: $35.00
+  Actual prep time: 11.09 minutes
+  Predicted prep time: 11.13 minutes
+  Absolute error: 0.04 minutes
+
+Order 83:
+  Store ID: 1066
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 7 different items
+  Total quantity: 51.2
+  Basket value: $45.20
+  Actual prep time: 8.56 minutes
+  Predicted prep time: 8.49 minutes
+  Absolute error: 0.06 minutes
+
+Order 17:
+  Store ID: 906
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 4 different items
+  Total quantity: 33.5
+  Basket value: $30.50
+  Actual prep time: 9.09 minutes
+  Predicted prep time: 9.21 minutes
+  Absolute error: 0.12 minutes
+
+Order 35:
+  Store ID: 918
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 29.4
+  Basket value: $25.40
+  Actual prep time: 12.56 minutes
+  Predicted prep time: 12.20 minutes
+  Absolute error: 0.37 minutes
+
+Order 76:
+  Store ID: 811
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 31.4
+  Basket value: $28.40
+  Actual prep time: 9.84 minutes
+  Predicted prep time: 9.46 minutes
+  Absolute error: 0.38 minutes
+
+Order 70:
+  Store ID: 894
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 27.3
+  Basket value: $25.30
+  Actual prep time: 12.55 minutes
+  Predicted prep time: 12.94 minutes
+  Absolute error: 0.39 minutes
+
+Order 19:
+  Store ID: 903
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 3 different items
+  Total quantity: 32.1
+  Basket value: $30.10
+  Actual prep time: 9.63 minutes
+  Predicted prep time: 10.03 minutes
+  Absolute error: 0.40 minutes
+
+Order 39:
+  Store ID: 1003
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 28.9
+  Basket value: $25.90
+  Actual prep time: 10.03 minutes
+  Predicted prep time: 10.51 minutes
+  Absolute error: 0.49 minutes
+
+Order 58:
+  Store ID: 841
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 29.9
+  Basket value: $25.90
+  Actual prep time: 11.08 minutes
+  Predicted prep time: 10.59 minutes
+  Absolute error: 0.49 minutes
+
+Order 59:
+  Store ID: 1081
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 9 different items
+  Total quantity: 107.8
+  Basket value: $94.80
+  Actual prep time: 8.80 minutes
+  Predicted prep time: 9.36 minutes
+  Absolute error: 0.55 minutes
+
+Order 50:
+  Store ID: 908
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 5 different items
+  Total quantity: 29.9
+  Basket value: $25.90
+  Actual prep time: 14.62 minutes
+  Predicted prep time: 13.94 minutes
+  Absolute error: 0.68 minutes
+
+Order 85:
+  Store ID: 815
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 5 different items
+  Total quantity: 44.7
+  Basket value: $40.70
+  Actual prep time: 9.85 minutes
+  Predicted prep time: 10.62 minutes
+  Absolute error: 0.77 minutes
+
+Order 52:
+  Store ID: 1105
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 31.0
+  Basket value: $28.00
+  Actual prep time: 9.83 minutes
+  Predicted prep time: 9.05 minutes
+  Absolute error: 0.78 minutes
+
+Order 60:
+  Store ID: 826
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 63.5
+  Basket value: $58.50
+  Actual prep time: 11.13 minutes
+  Predicted prep time: 11.96 minutes
+  Absolute error: 0.83 minutes
+
+Order 45:
+  Store ID: 868
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 5 different items
+  Total quantity: 67.9
+  Basket value: $61.90
+  Actual prep time: 13.86 minutes
+  Predicted prep time: 13.02 minutes
+  Absolute error: 0.84 minutes
+
+Order 28:
+  Store ID: 838
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 29.3
+  Basket value: $27.30
+  Actual prep time: 9.77 minutes
+  Predicted prep time: 10.65 minutes
+  Absolute error: 0.88 minutes
+
+Order 33:
+  Store ID: 1100
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 41.2
+  Basket value: $38.20
+  Actual prep time: 12.51 minutes
+  Predicted prep time: 11.62 minutes
+  Absolute error: 0.88 minutes
+
+Order 8:
+  Store ID: 1098
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 6 different items
+  Total quantity: 65.3
+  Basket value: $59.30
+  Actual prep time: 8.19 minutes
+  Predicted prep time: 7.30 minutes
+  Absolute error: 0.89 minutes
+
+Order 95:
+  Store ID: 865
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 31.8
+  Basket value: $29.80
+  Actual prep time: 11.45 minutes
+  Predicted prep time: 10.54 minutes
+  Absolute error: 0.91 minutes
+
+Order 14:
+  Store ID: 1063
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 8 different items
+  Total quantity: 127.7
+  Basket value: $118.70
+  Actual prep time: 12.55 minutes
+  Predicted prep time: 11.58 minutes
+  Absolute error: 0.97 minutes
+
+Order 82:
+  Store ID: 1083
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 36.8
+  Basket value: $34.80
+  Actual prep time: 12.06 minutes
+  Predicted prep time: 11.09 minutes
+  Absolute error: 0.97 minutes
+
+Order 1:
+  Store ID: 811
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 4 different items
+  Total quantity: 29.1
+  Basket value: $26.10
+  Actual prep time: 6.61 minutes
+  Predicted prep time: 7.67 minutes
+  Absolute error: 1.06 minutes
+
+Order 72:
+  Store ID: 827
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 49.4
+  Basket value: $45.40
+  Actual prep time: 7.71 minutes
+  Predicted prep time: 8.95 minutes
+  Absolute error: 1.25 minutes
+
+Order 47:
+  Store ID: 1105
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 36.0
+  Basket value: $31.00
+  Actual prep time: 9.86 minutes
+  Predicted prep time: 8.60 minutes
+  Absolute error: 1.26 minutes
+
+Order 38:
+  Store ID: 1108
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 7 different items
+  Total quantity: 88.4
+  Basket value: $81.40
+  Actual prep time: 10.43 minutes
+  Predicted prep time: 11.74 minutes
+  Absolute error: 1.31 minutes
+
+Order 24:
+  Store ID: 801
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 29.1
+  Basket value: $25.10
+  Actual prep time: 11.61 minutes
+  Predicted prep time: 12.93 minutes
+  Absolute error: 1.32 minutes
+
+Order 64:
+  Store ID: 800
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 31.6
+  Basket value: $28.60
+  Actual prep time: 9.79 minutes
+  Predicted prep time: 11.21 minutes
+  Absolute error: 1.42 minutes
+
+Order 26:
+  Store ID: 878
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 29.9
+  Basket value: $27.90
+  Actual prep time: 7.03 minutes
+  Predicted prep time: 8.46 minutes
+  Absolute error: 1.43 minutes
+
+Order 9:
+  Store ID: 1004
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 4 different items
+  Total quantity: 33.0
+  Basket value: $30.00
+  Actual prep time: 9.28 minutes
+  Predicted prep time: 10.77 minutes
+  Absolute error: 1.49 minutes
+
+Order 61:
+  Store ID: 1062
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 30.4
+  Basket value: $26.40
+  Actual prep time: 10.73 minutes
+  Predicted prep time: 12.27 minutes
+  Absolute error: 1.55 minutes
+
+Order 71:
+  Store ID: 1099
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 27.1
+  Basket value: $25.10
+  Actual prep time: 9.72 minutes
+  Predicted prep time: 11.30 minutes
+  Absolute error: 1.58 minutes
+
+Order 12:
+  Store ID: 1089
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 5 different items
+  Total quantity: 43.7
+  Basket value: $39.70
+  Actual prep time: 9.74 minutes
+  Predicted prep time: 7.90 minutes
+  Absolute error: 1.84 minutes
+
+Order 48:
+  Store ID: 853
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 30.1
+  Basket value: $27.10
+  Actual prep time: 10.91 minutes
+  Predicted prep time: 12.79 minutes
+  Absolute error: 1.88 minutes
+
+Order 77:
+  Store ID: 892
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 31.8
+  Basket value: $29.80
+  Actual prep time: 10.80 minutes
+  Predicted prep time: 8.87 minutes
+  Absolute error: 1.93 minutes
+
+Order 84:
+  Store ID: 894
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 6 different items
+  Total quantity: 42.9
+  Basket value: $37.90
+  Actual prep time: 15.46 minutes
+  Predicted prep time: 13.50 minutes
+  Absolute error: 1.95 minutes
+
+Order 16:
+  Store ID: 1005
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 3 different items
+  Total quantity: 33.0
+  Basket value: $31.00
+  Actual prep time: 8.10 minutes
+  Predicted prep time: 10.13 minutes
+  Absolute error: 2.03 minutes
+
+Order 29:
+  Store ID: 879
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 5 different items
+  Total quantity: 35.2
+  Basket value: $30.20
+  Actual prep time: 10.29 minutes
+  Predicted prep time: 8.23 minutes
+  Absolute error: 2.06 minutes
+
+Order 15:
+  Store ID: 948
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 4 different items
+  Total quantity: 31.2
+  Basket value: $28.20
+  Actual prep time: 14.19 minutes
+  Predicted prep time: 12.10 minutes
+  Absolute error: 2.09 minutes
+
+Order 54:
+  Store ID: 929
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 29.6
+  Basket value: $26.60
+  Actual prep time: 7.60 minutes
+  Predicted prep time: 9.71 minutes
+  Absolute error: 2.11 minutes
+
+Order 4:
+  Store ID: 1003
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 2 different items
+  Total quantity: 41.2
+  Basket value: $39.20
+  Actual prep time: 6.94 minutes
+  Predicted prep time: 9.07 minutes
+  Absolute error: 2.13 minutes
+
+Order 93:
+  Store ID: 918
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 27.1
+  Basket value: $25.10
+  Actual prep time: 9.16 minutes
+  Predicted prep time: 11.35 minutes
+  Absolute error: 2.19 minutes
+
+Order 32:
+  Store ID: 1090
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 27.6
+  Basket value: $25.60
+  Actual prep time: 9.40 minutes
+  Predicted prep time: 11.62 minutes
+  Absolute error: 2.22 minutes
+
+Order 79:
+  Store ID: 1062
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 46.1
+  Basket value: $43.10
+  Actual prep time: 14.25 minutes
+  Predicted prep time: 11.94 minutes
+  Absolute error: 2.31 minutes
+
+Order 13:
+  Store ID: 918
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 3 different items
+  Total quantity: 30.5
+  Basket value: $26.50
+  Actual prep time: 12.02 minutes
+  Predicted prep time: 9.70 minutes
+  Absolute error: 2.32 minutes
+
+Order 36:
+  Store ID: 1126
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 28.0
+  Basket value: $25.00
+  Actual prep time: 12.90 minutes
+  Predicted prep time: 10.52 minutes
+  Absolute error: 2.38 minutes
+
+Order 42:
+  Store ID: 879
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 32.4
+  Basket value: $30.40
+  Actual prep time: 6.80 minutes
+  Predicted prep time: 9.35 minutes
+  Absolute error: 2.55 minutes
+
+Order 80:
+  Store ID: 1135
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 27.9
+  Basket value: $25.90
+  Actual prep time: 7.11 minutes
+  Predicted prep time: 9.72 minutes
+  Absolute error: 2.62 minutes
+
+Order 57:
+  Store ID: 843
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 33.2
+  Basket value: $28.20
+  Actual prep time: 11.50 minutes
+  Predicted prep time: 8.88 minutes
+  Absolute error: 2.62 minutes
+
+Order 89:
+  Store ID: 1005
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 2 different items
+  Total quantity: 26.2
+  Basket value: $25.20
+  Actual prep time: 8.47 minutes
+  Predicted prep time: 11.12 minutes
+  Absolute error: 2.65 minutes
+
+Order 92:
+  Store ID: 828
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 30.7
+  Basket value: $27.70
+  Actual prep time: 9.88 minutes
+  Predicted prep time: 12.60 minutes
+  Absolute error: 2.72 minutes
+
+Order 51:
+  Store ID: 826
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 27.2
+  Basket value: $25.20
+  Actual prep time: 6.88 minutes
+  Predicted prep time: 9.66 minutes
+  Absolute error: 2.78 minutes
+
+Order 65:
+  Store ID: 893
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 6 different items
+  Total quantity: 96.3
+  Basket value: $90.30
+  Actual prep time: 9.18 minutes
+  Predicted prep time: 11.96 minutes
+  Absolute error: 2.78 minutes
+
+Order 86:
+  Store ID: 810
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 31.2
+  Basket value: $29.20
+  Actual prep time: 9.63 minutes
+  Predicted prep time: 12.46 minutes
+  Absolute error: 2.83 minutes
+
+Order 34:
+  Store ID: 1004
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 37.6
+  Basket value: $34.60
+  Actual prep time: 8.98 minutes
+  Predicted prep time: 11.92 minutes
+  Absolute error: 2.93 minutes
+
+Order 18:
+  Store ID: 1005
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 28.2
+  Basket value: $26.20
+  Actual prep time: 14.57 minutes
+  Predicted prep time: 11.63 minutes
+  Absolute error: 2.93 minutes
+
+Order 53:
+  Store ID: 994
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 5 different items
+  Total quantity: 42.5
+  Basket value: $38.50
+  Actual prep time: 11.23 minutes
+  Predicted prep time: 8.28 minutes
+  Absolute error: 2.95 minutes
+
+Order 7:
+  Store ID: 810
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 4 different items
+  Total quantity: 30.3
+  Basket value: $27.30
+  Actual prep time: 8.20 minutes
+  Predicted prep time: 11.29 minutes
+  Absolute error: 3.10 minutes
+
+Order 25:
+  Store ID: 801
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 5 different items
+  Total quantity: 71.2
+  Basket value: $63.20
+  Actual prep time: 11.60 minutes
+  Predicted prep time: 8.46 minutes
+  Absolute error: 3.13 minutes
+
+Order 20:
+  Store ID: 899
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 28.2
+  Basket value: $26.20
+  Actual prep time: 6.27 minutes
+  Predicted prep time: 9.40 minutes
+  Absolute error: 3.14 minutes
+
+Order 3:
+  Store ID: 1055
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 6 different items
+  Total quantity: 73.0
+  Basket value: $66.00
+  Actual prep time: 5.53 minutes
+  Predicted prep time: 8.72 minutes
+  Absolute error: 3.19 minutes
+
+Order 66:
+  Store ID: 1064
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 30.2
+  Basket value: $28.20
+  Actual prep time: 8.04 minutes
+  Predicted prep time: 11.39 minutes
+  Absolute error: 3.35 minutes
+
+Order 49:
+  Store ID: 1085
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 28.4
+  Basket value: $26.40
+  Actual prep time: 10.19 minutes
+  Predicted prep time: 6.83 minutes
+  Absolute error: 3.36 minutes
+
+Order 30:
+  Store ID: 1049
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 38.5
+  Basket value: $35.50
+  Actual prep time: 7.88 minutes
+  Predicted prep time: 11.29 minutes
+  Absolute error: 3.41 minutes
+
+Order 56:
+  Store ID: 879
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 73.4
+  Basket value: $70.40
+  Actual prep time: 13.76 minutes
+  Predicted prep time: 10.23 minutes
+  Absolute error: 3.53 minutes
+
+Order 2:
+  Store ID: 1135
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 3 different items
+  Total quantity: 32.8
+  Basket value: $30.80
+  Actual prep time: 7.66 minutes
+  Predicted prep time: 11.48 minutes
+  Absolute error: 3.82 minutes
+
+Order 46:
+  Store ID: 1051
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 6 different items
+  Total quantity: 37.0
+  Basket value: $32.00
+  Actual prep time: 16.92 minutes
+  Predicted prep time: 13.10 minutes
+  Absolute error: 3.83 minutes
+
+Order 62:
+  Store ID: 1063
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 54.9
+  Basket value: $51.90
+  Actual prep time: 6.44 minutes
+  Predicted prep time: 10.30 minutes
+  Absolute error: 3.86 minutes
+
+Order 40:
+  Store ID: 1006
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 30.3
+  Basket value: $27.30
+  Actual prep time: 14.82 minutes
+  Predicted prep time: 10.81 minutes
+  Absolute error: 4.01 minutes
+
+Order 91:
+  Store ID: 1059
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 32.7
+  Basket value: $30.70
+  Actual prep time: 4.23 minutes
+  Predicted prep time: 8.33 minutes
+  Absolute error: 4.10 minutes
+
+Order 68:
+  Store ID: 1080
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 5 different items
+  Total quantity: 36.5
+  Basket value: $32.50
+  Actual prep time: 6.64 minutes
+  Predicted prep time: 10.83 minutes
+  Absolute error: 4.20 minutes
+
+Order 63:
+  Store ID: 924
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 2 different items
+  Total quantity: 28.2
+  Basket value: $26.20
+  Actual prep time: 6.22 minutes
+  Predicted prep time: 10.50 minutes
+  Absolute error: 4.28 minutes
+
+Order 41:
+  Store ID: 1089
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 40.4
+  Basket value: $37.40
+  Actual prep time: 13.74 minutes
+  Predicted prep time: 9.46 minutes
+  Absolute error: 4.29 minutes
+
+Order 21:
+  Store ID: 892
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 6 different items
+  Total quantity: 39.4
+  Basket value: $34.40
+  Actual prep time: 4.86 minutes
+  Predicted prep time: 9.23 minutes
+  Absolute error: 4.37 minutes
+
+Order 55:
+  Store ID: 1077
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 8 different items
+  Total quantity: 65.3
+  Basket value: $57.30
+  Actual prep time: 6.63 minutes
+  Predicted prep time: 11.07 minutes
+  Absolute error: 4.45 minutes
+
+Order 43:
+  Store ID: 897
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 28.0
+  Basket value: $25.00
+  Actual prep time: 6.98 minutes
+  Predicted prep time: 11.52 minutes
+  Absolute error: 4.54 minutes
+
+Order 69:
+  Store ID: 1004
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 7 different items
+  Total quantity: 114.1
+  Basket value: $107.10
+  Actual prep time: 9.62 minutes
+  Predicted prep time: 14.27 minutes
+  Absolute error: 4.65 minutes
+
+Order 11:
+  Store ID: 1098
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 3 different items
+  Total quantity: 28.1
+  Basket value: $25.10
+  Actual prep time: 12.09 minutes
+  Predicted prep time: 7.33 minutes
+  Absolute error: 4.76 minutes
+
+Order 6:
+  Store ID: 889
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 3 different items
+  Total quantity: 29.5
+  Basket value: $27.50
+  Actual prep time: 4.14 minutes
+  Predicted prep time: 9.28 minutes
+  Absolute error: 5.13 minutes
+
+Order 87:
+  Store ID: 1131
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 7 different items
+  Total quantity: 43.2
+  Basket value: $36.20
+  Actual prep time: 5.24 minutes
+  Predicted prep time: 10.40 minutes
+  Absolute error: 5.16 minutes
+
+Order 90:
+  Store ID: 943
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 32.0
+  Basket value: $29.00
+  Actual prep time: 6.93 minutes
+  Predicted prep time: 12.55 minutes
+  Absolute error: 5.62 minutes
+
+Order 37:
+  Store ID: 1005
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 5 different items
+  Total quantity: 31.6
+  Basket value: $27.60
+  Actual prep time: 7.02 minutes
+  Predicted prep time: 12.65 minutes
+  Absolute error: 5.63 minutes
+
+Order 22:
+  Store ID: 891
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 4 different items
+  Total quantity: 44.5
+  Basket value: $40.50
+  Actual prep time: 6.42 minutes
+  Predicted prep time: 12.28 minutes
+  Absolute error: 5.86 minutes
+
+Order 10:
+  Store ID: 1054
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 5 different items
+  Total quantity: 31.5
+  Basket value: $27.50
+  Actual prep time: 11.68 minutes
+  Predicted prep time: 5.50 minutes
+  Absolute error: 6.18 minutes
+
+Order 5:
+  Store ID: 810
+  Day of week: 3
+  Hour of day: 3
+  Basket items: 2 different items
+  Total quantity: 26.3
+  Basket value: $25.30
+  Actual prep time: 4.97 minutes
+  Predicted prep time: 11.55 minutes
+  Absolute error: 6.58 minutes
+
+Order 78:
+  Store ID: 1072
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 32.6
+  Basket value: $29.60
+  Actual prep time: 16.80 minutes
+  Predicted prep time: 9.92 minutes
+  Absolute error: 6.88 minutes
+
+Order 88:
+  Store ID: 800
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 5 different items
+  Total quantity: 36.1
+  Basket value: $32.10
+  Actual prep time: 18.79 minutes
+  Predicted prep time: 10.84 minutes
+  Absolute error: 7.95 minutes
+
+Order 44:
+  Store ID: 1083
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 34.5
+  Basket value: $31.50
+  Actual prep time: 18.19 minutes
+  Predicted prep time: 9.96 minutes
+  Absolute error: 8.23 minutes
+
+Order 75:
+  Store ID: 828
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 3 different items
+  Total quantity: 40.5
+  Basket value: $38.50
+  Actual prep time: 3.61 minutes
+  Predicted prep time: 12.32 minutes
+  Absolute error: 8.72 minutes
+
+Order 27:
+  Store ID: 1081
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 31.0
+  Basket value: $28.00
+  Actual prep time: 3.77 minutes
+  Predicted prep time: 12.72 minutes
+  Absolute error: 8.95 minutes
+
+Order 23:
+  Store ID: 814
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 40.2
+  Basket value: $37.20
+  Actual prep time: 26.77 minutes
+  Predicted prep time: 12.38 minutes
+  Absolute error: 14.39 minutes
+
+Order 74:
+  Store ID: 930
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 6 different items
+  Total quantity: 87.2
+  Basket value: $81.20
+  Actual prep time: 26.74 minutes
+  Predicted prep time: 12.33 minutes
+  Absolute error: 14.41 minutes
+
+Order 81:
+  Store ID: 821
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 4 different items
+  Total quantity: 37.6
+  Basket value: $34.60
+  Actual prep time: 25.92 minutes
+  Predicted prep time: 11.22 minutes
+  Absolute error: 14.70 minutes
+
+Order 31:
+  Store ID: 1058
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 6 different items
+  Total quantity: 34.2
+  Basket value: $29.20
+  Actual prep time: 22.82 minutes
+  Predicted prep time: 7.84 minutes
+  Absolute error: 14.97 minutes
+
+Order 67:
+  Store ID: 1109
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 5 different items
+  Total quantity: 30.9
+  Basket value: $26.90
+  Actual prep time: 32.32 minutes
+  Predicted prep time: 14.95 minutes
+  Absolute error: 17.38 minutes
+
+Order 94:
+  Store ID: 1061
+  Day of week: 3
+  Hour of day: 2
+  Basket items: 5 different items
+  Total quantity: 47.8
+  Basket value: $43.80
+  Actual prep time: 34.68 minutes
+  Predicted prep time: 10.50 minutes
+  Absolute error: 24.19 minutes
+
+
+==================================================
+OVERALL PREDICTION STATISTICS:
+==================================================
+Total orders processed: 95
+Mean Absolute Error (MAE): 3.67 minutes
+Mean Absolute Percentage Error (MAPE): 37.42%
+Min error: 0.04 minutes
+Max error: 24.19 minutes
+Median error: 2.62 minutes

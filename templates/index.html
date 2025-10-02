@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prep Time Predictor</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      .container {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .form-group {
+        margin-bottom: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555;
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+        box-sizing: border-box;
+      }
+      .item-inputs {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+        margin-top: 10px;
+        max-height: 400px;
+        overflow-y: auto;
+        padding: 10px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        background-color: #fafafa;
+      }
+      .item-input {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .item-input label {
+        flex: 1;
+        margin-bottom: 0;
+        font-weight: normal;
+        font-size: 14px;
+      }
+      .item-input input {
+        width: 80px;
+        flex-shrink: 0;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        display: block;
+        margin: 20px auto;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+      .result {
+        margin-top: 30px;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 18px;
+      }
+      .result.success {
+        background-color: #d4edda;
+        border: 1px solid #c3e6cb;
+        color: #155724;
+      }
+      .result.error {
+        background-color: #f8d7da;
+        border: 1px solid #f5c6cb;
+        color: #721c24;
+      }
+      .prediction-details {
+        margin-top: 15px;
+        font-size: 14px;
+        color: #666;
+      }
+      .quick-fill {
+        margin-bottom: 20px;
+      }
+      .quick-fill button {
+        background-color: #28a745;
+        margin: 5px;
+        padding: 8px 15px;
+        font-size: 14px;
+        display: inline-block;
+      }
+      .quick-fill button:hover {
+        background-color: #218838;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🍕 Order Prep Time Predictor</h1>
+
+      <form id="predictionForm">
+        <div class="form-group">
+          <label for="store_id">Store ID:</label>
+          <input
+            type="number"
+            id="store_id"
+            name="store_id"
+            required
+            min="1"
+            value="1"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="day_of_week">Day of Week:</label>
+          <select id="day_of_week" name="day_of_week" required>
+            <option value="0">Monday</option>
+            <option value="1">Tuesday</option>
+            <option value="2">Wednesday</option>
+            <option value="3">Thursday</option>
+            <option value="4">Friday</option>
+            <option value="5">Saturday</option>
+            <option value="6">Sunday</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="hour_of_day">Hour of Day (0-23):</label>
+          <input
+            type="number"
+            id="hour_of_day"
+            name="hour_of_day"
+            required
+            min="0"
+            max="23"
+            value="12"
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Item Quantities:</label>
+          <div class="quick-fill">
+            <button type="button" onclick="fillSampleOrder1()">
+              Sample Order 1
+            </button>
+            <button type="button" onclick="fillSampleOrder2()">
+              Sample Order 2
+            </button>
+            <button type="button" onclick="clearAllItems()">Clear All</button>
+          </div>
+          <div class="item-inputs" id="itemInputs">
+            {% for item in item_columns %}
+            <div class="item-input">
+              <label for="item_{{ loop.index }}">{{ item }}:</label>
+              <input
+                type="number"
+                id="item_{{ loop.index }}"
+                name="{{ item }}"
+                min="0"
+                step="1"
+                placeholder="0"
+              />
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <button type="submit" id="predictBtn">Predict Prep Time</button>
+      </form>
+
+      <div id="result" class="result" style="display: none"></div>
+    </div>
+
+    <script>
+      document
+        .getElementById("predictionForm")
+        .addEventListener("submit", async function (e) {
+          e.preventDefault();
+
+          const predictBtn = document.getElementById("predictBtn");
+          const resultDiv = document.getElementById("result");
+
+          predictBtn.disabled = true;
+          predictBtn.textContent = "Predicting...";
+
+          const formData = new FormData(this);
+          const data = {
+            store_id: formData.get("store_id"),
+            day_of_week: formData.get("day_of_week"),
+            hour_of_day: formData.get("hour_of_day"),
+            item_quantities: {},
+          };
+
+          // Collect item quantities
+          const itemInputs = document.querySelectorAll("#itemInputs input");
+          itemInputs.forEach((input) => {
+            if (input.value && parseFloat(input.value) > 0) {
+              data.item_quantities[input.name] = input.value;
+            }
+          });
+
+          try {
+            const response = await fetch("/predict", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+              resultDiv.className = "result success";
+              resultDiv.innerHTML = `
+                        <strong>Predicted Prep Time: ${
+                          result.predicted_prep_time
+                        } minutes</strong>
+                        <div class="prediction-details">
+                            Store ID: ${result.inputs.store_id} | 
+                            Day: ${getDayName(result.inputs.day_of_week)} | 
+                            Hour: ${result.inputs.hour_of_day}:00 | 
+                            Items: ${
+                              Object.keys(result.inputs.item_quantities).length
+                            }
+                        </div>
+                    `;
+            } else {
+              resultDiv.className = "result error";
+              resultDiv.innerHTML = `<strong>Error:</strong> ${result.error}`;
+            }
+
+            resultDiv.style.display = "block";
+          } catch (error) {
+            resultDiv.className = "result error";
+            resultDiv.innerHTML = `<strong>Error:</strong> ${error.message}`;
+            resultDiv.style.display = "block";
+          }
+
+          predictBtn.disabled = false;
+          predictBtn.textContent = "Predict Prep Time";
+        });
+
+      function getDayName(dayNum) {
+        const days = [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday",
+        ];
+        return days[dayNum];
+      }
+
+      function fillSampleOrder1() {
+        clearAllItems();
+        // Sample pizza order
+        const sampleItems = {
+          "Margherita Pizza": 2,
+          "Pepperoni Pizza": 1,
+          "Garlic Bread": 1,
+          "Coca Cola": 3,
+        };
+        fillItems(sampleItems);
+      }
+
+      function fillSampleOrder2() {
+        clearAllItems();
+        // Sample large order
+        const sampleItems = {
+          "Supreme Pizza": 3,
+          "Hawaiian Pizza": 2,
+          "Caesar Salad": 2,
+          "Chicken Wings": 1,
+          "Garlic Bread": 2,
+          Sprite: 4,
+        };
+        fillItems(sampleItems);
+      }
+
+      function fillItems(items) {
+        const itemInputs = document.querySelectorAll("#itemInputs input");
+        itemInputs.forEach((input) => {
+          const itemName = input.name;
+          if (items[itemName]) {
+            input.value = items[itemName];
+          }
+        });
+      }
+
+      function clearAllItems() {
+        const itemInputs = document.querySelectorAll("#itemInputs input");
+        itemInputs.forEach((input) => {
+          input.value = "";
+        });
+      }
+    </script>
+  </body>
+</html>
